@@ -1,3 +1,45 @@
+@media (max-width: 1075px) {
+    main .character {
+        margin-top: 0px;
+        height: 100vh;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 840px) {
+    main::after {
+        background: linear-gradient(90deg, #000 20%, rgba(0, 0, 0, 0) 80%) no-repeat;
+    }
+    
+    main .character {
+        margin-top: 0px;
+        height: 100vh;
+        margin-left: -100px;
+    }
+
+    .botons {
+        width: 100px;
+    }
+
+    .content {
+        left: 25px;
+        max-width: 350px;
+    }
+    
+    .content .name {
+        font-size: 45px;
+    }
+    
+    .content .description {
+        font-size: 15px;
+    }
+
+    .content .logo {
+        height: 85px;
+        width: 305px;
+    }
+}
+
 @media (max-width: 642px) {
     main::after {
         min-height: 100vh;
@@ -33,7 +75,7 @@
     }
 
     .content .logo {
-        margin-bottom: 55%;
+        margin-bottom: 350px;
         margin-left: auto;
         margin-right: auto;
         height: 50px;
